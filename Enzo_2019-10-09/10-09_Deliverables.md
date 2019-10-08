@@ -1,0 +1,15 @@
+- One page cleaned summary.
+- Data sources chosen.
+- Project plan including
+  - ETL to single datasource
+  - Visualization Tool (Tableau, D3, leaflet, etc?)
+- You will need a professional Trial for Tableau to get DB access
+- Every Group member should have some assigned tasks
+- Drawings and flowcharts of the ETL dataflow and cleanup, and even Flowcharts or drawing of application (including such things as the Flask routes)
+- Rough drawing of the presentation layer and what you want the visualization to conceptually look like or in Tableau what the story looks like
+- What the ML model you are trying to use, or leaning toward?
+  - Technology tools you are using (Jupyter Notebook, Zepl, Colab, etc).
+- Github
+  - Setup and ready to go.
+- Suggestions:
+  - After building the first model, look at the weights and try to reduce the number of features to get a similar result ( less data in = easier).   This will probably be an iterative process, can you drop features and get similar results.
