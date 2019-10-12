@@ -1,4 +1,4 @@
-Team,Year,Week,Opponent,Total DVOA,Offense DVOA,Off Pass DVOA,Off Rush DVOA,Defense DVOA,Def Pass DVOA,Def Rush DVOA,ST DVOA
+Team,Year,Week,Opponent,TotalDVOA,OffenseDVOA,OffPassDVOA,OffRushDVOA,DefenseDVOA,DefPassDVOA,DefRushDVOA,STDVOA
 ARI,2015,1,NO,0.573,0.305,0.583,-0.064,-0.216,-0.14,-0.367,0.053
 ARI,2015,2,CHI,1.004,0.561,1.037,0.136,-0.273,-0.205,-0.326,0.17
 ARI,2015,3,SF,0.572,-0.024,0.347,-0.179,-0.645,-1.529,-0.11,-0.049
