@@ -1,6 +1,6 @@
 CREATE TABLE DVOA_data (
 	Team VARCHAR,
-Year int,
+	Year int,
 	Week int,
 	Opponent VARCHAR,
 	TotalDVOA DEC,
