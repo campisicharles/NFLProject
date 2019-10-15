@@ -1,3 +1,4 @@
+CREATE VIEW combined_view AS
 SELECT * FROM public.gambling_data a
 inner join home_dvoa_data b 
 on a.hometeam = b.home_team and
