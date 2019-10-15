@@ -10,7 +10,7 @@ CREATE TABLE Game_Data (
 	AwayLine DEC,
 	PredictTotal DEC,
 	ActualTotal int,
-HOME_TotalDVOA DEC,
+	HOME_TotalDVOA DEC,
 	HOME_OffenseDVOA DEC,
 	HOME_OffPassDVOA DEC,
 	HOME_OffRushDVOA DEC,
