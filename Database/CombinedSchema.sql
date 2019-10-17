@@ -6,6 +6,8 @@ CREATE TABLE Game_Data (
 	HomeScore int,
 	AwayScore int,
 	PointDiff DEC,
+	HWHL int,
+	Covered int,
 	HomeLine DEC,
 	AwayLine DEC,
 	PredictTotal DEC,

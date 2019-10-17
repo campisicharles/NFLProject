@@ -6,6 +6,8 @@ CREATE TABLE gambling_data (
 	HomeScore int,
 	AwayScore int,
 	PointDiff DEC,
+	HWHL int,
+	Covered int,
 	HomeLine DEC,
 	AwayLine DEC,
 	PredictTotal DEC,
