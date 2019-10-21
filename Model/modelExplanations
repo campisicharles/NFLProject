@@ -1,0 +1,14 @@
+1. Our Models
+
+Our predictions of what games to bet on are done based on 5 models made using the DVOA archive from FootballOutsiders and the latest Vegas odds. The first is a linear regression model that predicts the point differential of this week’s matchups. It makes its predictions from the perspective of the home team, i.e. a prediction of +7 means the home team will win by a touchdown and a -7 represents a loss of a touchdown. Next, we have a linear regression model that predicts the total number of points scored by both teams in the game.  The next two are both Support-vector machines, one which predicts whether the home team will win, the other will predict whether to bet home or away based on the current spread given. Lastly, we use a support-vector clustering model to predict a point differential that is most probable given the scoring of football games, i.e. will group the differential to a common football differential, like a field goal or a touchdown. 
+
+2. Model Scores
+Differential: r2: .76, RSS: 43.51
+Over/Under: r2: .33, RSS: 128.75
+Winner: r2: .85 
+Spread: f1: .81
+SVC Differential: r2: .57, RSS: 64.88
+
+3. Making our Prediction
+
+Every week, we add last week’s game data to our database along with the current Vegas spread and predicted total. Then, we slight alter a Jupyter Notebook that pulls the teams current season’s DVOA and average them together. With this, we create a Pandas dataframe that contains rows for each of the next weeks games. These rows contain the home team, the away team, the spread for the game, the predicted total, the home teams DVOA stats, and the away team’s DVOA stats. This dataframe is then put into a CSV for manual checking to make sure the info is correct. From there, predictions can then be made from the CSV our by loading in the columns from the dataframe.
